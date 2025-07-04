@@ -1,0 +1,17 @@
+{
+  "name": "templatoon",
+  "version": "1.0.0",
+  "description": "Templatoon helps you manage and sync multiple pull request templates across your GitHub projects with ease. Create, link, and deploy templates—no more copy-paste chaos.",
+  "keywords": ["GitHub", "templates"],
+  "private":"true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "author": "Richard Kotze",
+  "license": "",
+  "packageManager": "pnpm@10.12.4"
+}
