@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@templatoon/db": ["packages/db"]
+    }
+  }
+}
